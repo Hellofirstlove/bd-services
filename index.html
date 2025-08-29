@@ -21,12 +21,12 @@
 
         <div class="right">
             <div class="badge">
-                <span>0 ❤️</span>
+                <span id="hearts-count">0 ❤️</span>
             </div>
             <div class="badge">
-                <span>100 🔥</span>
+                <span id="coins-count">100 🔥</span>
             </div>
-            <button class="copy-btn">2 Copy</button>
+            <button id="copy-count-btn" class="copy-btn"><span id="copy-update">2</span> Copy</button>
         </div>
     </div>
 
@@ -172,11 +172,10 @@
                 <div class="number">163</div>
                 <span class="tags">Travel</span>
                 <div class="actions">
-                    <button class="copy"><i class="fa-regular fa-copy"></i> Copy</button>
+                    <button id="copy-btn-press" class="copy"><i class="fa-regular fa-copy"></i> Copy</button>
                     <button class="call"><i class="fa-solid fa-phone-volume"></i> Call</button>
                 </div>
             </div>
-            <!-- Add more cards like above... -->
         </div>
 
         <!-- Call History Section -->
@@ -186,13 +185,15 @@
                     <i class="fa-regular fa-clock"></i>
                     <h3>Call History</h3>
                 </div>
-                <button class="clear-btn">Clear</button>
+                <button class="clear-btn" id="clear-history">Clear</button>
             </div>
             <div id="history-list"></div>
-            
+
         </div>
     </div>
     </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
