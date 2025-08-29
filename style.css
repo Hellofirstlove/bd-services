@@ -235,3 +235,57 @@ button {
     cursor: pointer;
     margin-top: 10px;
 }
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card-section {
+        flex-direction: column;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .history {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .header p {
+        font-size: 12px;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .number {
+        font-size: 18px;
+    }
+
+    .inside-card img {
+        height: 45px;
+        width: 45px;
+    }
+}
