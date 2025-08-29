@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="left">
+            <img src="assets/logo.png" alt="Logo">
+            <span>Emergency<br>Service</span>
+        </div>
+
+        <div class="right">
+            <div class="badge">
+                <span>0 ❤️</span>
+            </div>
+            <div class="badge">
+                <span>100 🔥</span>
+            </div>
+            <button class="copy-btn">2 Copy</button>
+        </div>
+    </div>
+
+    <div class="header">
+        <img src="assets/logo-dark.png" alt="Bangladesh Govt. Logo">
+        <h1>Emergency Service Directory</h1>
+        <p>Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of
+            Bangladesh</p>
+    </div>
+    <!-- Cards Section -->
+    <div class="container">
+        <!-- Example Card -->
+        <div class="card">
+            <h3>National Emergency Number</h3>
+            <p>National Emergency</p>
+            <div class="number">999</div>
+            <span class="tags">All</span>
+            <div class="actions">
+                <button class="copy" >Copy</button>
+                <button class="call" >Call</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Police Helpline Number</h3>
+            <p>Police</p>
+            <div class="number">999</div>
+            <span class="tags">Police</span>
+            <div class="actions">
+                <button class="copy" >Copy</button>
+                <button class="call" >Call</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Fire Service Number</h3>
+            <p>Fire Service</p>
+            <div class="number">999</div>
+            <span class="tags">Fire</span>
+            <div class="actions">
+                <button class="copy" >Copy</button>
+                <button class="call" >Call</button>
+            </div>
+        </div>
+
+        <!-- Add more cards like above... -->
+    </div>
+
+    <!-- Call History Section -->
+    <div class="history">
+        <h3>Call History</h3>
+        <div id="history-list"></div>
+        <button class="clear-btn" >Clear</button>
+    </div>
+    </div>
+</body>
+
+</html>
